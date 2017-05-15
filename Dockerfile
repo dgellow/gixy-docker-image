@@ -1,5 +1,5 @@
 FROM python:3-alpine
 
-RUN pip install gixy
+RUN pip install --no-cache-dir gixy
 
 CMD ["gixy"]
